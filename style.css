@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*,head,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    padding: 0;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100%;
+}
+.flex{
+    flex-wrap: wrap;
+    display: flex;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+}
+.jcc{
+    justify-content: center;
+}
+.jce{
+    justify-content: end;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.aic{
+    align-items: center;
+}
+.aie{
+    align-items: end;
+}
+.txtc{
+    text-align: center;
+}
+.txte{
+    text-align: end;
+}
+
+
+
+/*   HEADER   */
+
+
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("Content/Image/bgMain.PNG") no-repeat;
+    background-size: cover;
+
+}
+
+.infoHeader{
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid white;
+}
+.imgHeader img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.logo span{
+    margin-left: 10px ;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-shadow: black 2px 0 0 ;
+}
+.webHeader a{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.webHeader a:hover{
+    border-bottom: 2px solid white;
+}
+
+.textInfo{
+    height: 80%;
+    width: 100%;
+}
+.textInfo div{
+    font-size: 25px;
+    color: white;
+}
+
+
+
+
+
+
+/*   INFO   */
+
+
+.xiaomiInformation{
+    padding: 30px 0;
+    border-bottom: 2px solid black;
+}
+.xiaomiInformation2{
+    padding: 30px 0;
+}
+
+.cardInfo{
+    width: 100%;
+}
+.imgInfo{
+    width: 20%;
+}
+.textInfoCard{
+    width: 79%;
+}
+.imgInfo img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.textHeader span{
+    font-size: 35px;
+    font-weight: 500;
+}
+.textDesc span{
+    font-size: 25px;
+}
+
+
+
+
+
+/*   FOOTER   */
+
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #3b3b3b;
+    color: white;
+}
+.mob{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.buttonHelp{
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+.buttonHelp:hover{
+    color: #ff6709;
+    border-color: #ff6709;
+}
