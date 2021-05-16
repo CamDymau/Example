@@ -209,6 +209,12 @@ footer{
     .infoText{
         padding: 20px 10px;
     }
+    .imgMain img{
+        width: 70%;
+        height: 50%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
 }
 @media (max-width: 500px) {
     .menu{
@@ -231,12 +237,6 @@ footer{
         width: 220px;
         text-align: center;
         margin: 0 auto;
-    }
-    .imgMain img{
-        width: 70%;
-        height: 50%;
-        object-fit: cover;
-        border-radius: 15px;
     }
     .headerText span{
         font-size: 35px;
