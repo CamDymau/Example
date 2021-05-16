@@ -175,6 +175,9 @@ footer{
     font-weight: 500;
 }
 
+.mainBtn a{
+    color: white;
+}
 .buttonHelp{
     cursor: pointer;
     border: 2px solid white;
@@ -188,6 +191,11 @@ footer{
     border-color: #ff6709;
 }
 
+
+
+
+
+/*    media   */
 
 
 
@@ -238,6 +246,7 @@ footer{
         text-align: center;
         margin: 0 auto;
     }
+
     .headerText span{
         font-size: 35px;
     }

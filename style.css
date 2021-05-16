@@ -191,6 +191,9 @@ footer{
     font-size: 25px;
     font-weight: 500;
 }
+.mainBtn a{
+    color: white;
+}
 
 .buttonHelp{
     cursor: pointer;
@@ -208,7 +211,11 @@ footer{
 
 
 
+
 /*    media   */
+
+
+
 
 
 @media (max-width: 1350px) {
