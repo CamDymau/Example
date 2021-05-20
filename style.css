@@ -1,77 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-*,head,body{
+*, head, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-.container{
+
+.container {
     padding: 0;
     max-width: 1300px;
     margin: 0 auto;
     height: 100%;
 }
-.flex{
+
+.flex {
     flex-wrap: wrap;
     display: flex;
 }
-.flex2{
+
+.flex2 {
     display: flex;
     flex-direction: column;
 }
-.jcc{
+
+.jcc {
     justify-content: center;
 }
-.jce{
+
+.jce {
     justify-content: end;
 }
-.jcsb{
+
+.jcsb {
     justify-content: space-between;
 }
-.aic{
+
+.aic {
     align-items: center;
 }
-.aie{
+
+.aie {
     align-items: end;
 }
-.txtc{
+
+.txtc {
     text-align: center;
 }
-.txte{
+
+.txte {
     text-align: end;
 }
-
 
 
 /*   HEADER   */
 
 
-
-
-header{
+header {
     width: 100%;
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("Content/Image/bgMain.PNG") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Content/Image/bgMain.PNG") no-repeat;
     background-size: cover;
 
 }
-.menu{
+
+.menu {
     display: none;
     width: 40px;
     height: 40px;
 }
-.menu span{
+
+.menu span {
     height: 2px;
     width: 40px;
     background-color: white;
     float: left;
 }
-#showMeBlock{
+
+#showMeBlock {
     display: flex;
     position: absolute;
     top: -200px;
@@ -82,7 +93,8 @@ header{
     background-color: #3b3b3b;
     justify-content: center;
 }
-.showMeBlock{
+
+.showMeBlock {
     display: flex;
     position: absolute;
     top: 75px !important;
@@ -92,110 +104,116 @@ header{
     transition: ease-in-out 0.5s;
     background-color: #3b3b3b;
 }
-#showMeBlock a{
+
+#showMeBlock a {
     color: white;
     font-size: 30px;
     padding: 0 10px;
 }
 
-.infoHeader{
+.infoHeader {
     width: 100%;
     height: 70px;
     border-bottom: 2px solid white;
 }
-.imgHeader img{
+
+.imgHeader img {
     width: 50px;
     height: 50px;
     object-fit: cover;
     border-radius: 5px;
 }
-.logo span{
-    margin-left: 10px ;
+
+.logo span {
+    margin-left: 10px;
     font-size: 30px;
     color: white;
     font-weight: 600;
-    text-shadow: black 2px 0 0 ;
+    text-shadow: black 2px 0 0;
 }
-.webHeader a{
+
+.webHeader a {
     color: white;
     font-size: 30px;
     margin-left: 20px;
 }
-.webHeader a:hover{
+
+.webHeader a:hover {
     border-bottom: 2px solid white;
 }
 
-.textInfo{
+.textInfo {
     height: 80%;
     width: 100%;
 }
-.textInfo div{
-    font-size: 25px;
+
+.textInfo H1 {
+    font-size: 30px;
     color: white;
 }
-
-
-
-
 
 
 /*   INFO   */
 
 
-.xiaomiInformation{
+.xiaomiInformation {
     padding: 30px 0;
     border-bottom: 2px solid black;
 }
-.xiaomiInformation2{
+
+.xiaomiInformation2 {
     padding: 30px 0;
 }
 
-.cardInfo{
+.cardInfo {
     width: 100%;
 }
-.imgInfo{
+
+.imgInfo {
     width: 20%;
 }
-.textInfoCard{
+
+.textInfoCard {
     width: 79%;
 }
-.imgInfo img{
+
+.imgInfo img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
 }
-.textHeader span{
+
+.textHeader H2 {
     font-size: 35px;
     font-weight: 500;
 }
-.textDesc span{
+
+.textDesc span {
     font-size: 25px;
 }
-
-
-
 
 
 /*   FOOTER   */
 
 
-
-footer{
+footer {
     width: 100%;
     height: 100px;
     background-color: #3b3b3b;
     color: white;
 }
-.mob{
+
+.mob {
     font-size: 25px;
     font-weight: 500;
 }
-.mainBtn a{
+
+.mainBtn a {
     color: white;
 }
 
-.buttonHelp{
+.buttonHelp {
     cursor: pointer;
     border: 2px solid white;
     padding: 10px 15px;
@@ -203,112 +221,123 @@ footer{
     font-weight: 500;
     transition: all 0.5s;
 }
-.buttonHelp:hover{
+
+.buttonHelp:hover {
     color: #ff6709;
     border-color: #ff6709;
 }
 
 
-
-
-
 /*    media   */
 
 
-
-
-
 @media (max-width: 1350px) {
-    .container{
+    .container {
         max-width: 1100px;
     }
 
 }
 
 @media (max-width: 1150px) {
-    .container{
+    .container {
         padding: 0 10px;
     }
-    .textInfo div{
+
+    .textInfo H1 {
         font-size: 30px;
         text-align: center;
     }
-    .cardInfo{
+
+    .cardInfo {
         display: block;
     }
-    .imgInfo{
+
+    .imgInfo {
         text-align: center;
         width: 100%;
     }
-    .imgInfo img{
+
+    .imgInfo img {
         width: 500px;
         height: 500px;
     }
-    .textInfoCard,.textHeader{
+
+    .textInfoCard, .textHeader {
         text-align: center;
         width: 100%;
     }
-    .textHeader span{
+
+    .textHeader H2 {
         font-size: 50px;
     }
-    .textDesc span{
+
+    .textDesc span {
         font-size: 30px;
     }
 }
-@media (max-width: 680px) {
-    .textInfo div{
-        font-size: 25px;
-    }
-}
+
+
 @media (max-width: 530px) {
-    .imgInfo img{
+    .imgInfo img {
         width: 70%;
         height: 70%;
     }
 }
+
 @media (max-width: 500px) {
-    .menu{
+    .menu {
         display: flex;
     }
-    .webHeader{
+
+    .webHeader {
         display: none;
     }
-    footer{
+
+    footer {
         height: 150px;
     }
-    footer .container{
+
+    footer .container {
         display: block;
     }
-    .leftFooter{
-        padding: 10px 0 ;
+
+    .leftFooter {
+        padding: 10px 0;
         text-align: center;
     }
-    .buttonHelp{
+
+    .buttonHelp {
         width: 220px;
         text-align: center;
         margin: 0 auto;
     }
-    .textInfo div{
-        font-size: 20px;
+
+    .textInfo H1 {
+        font-size: 25px;
     }
-    .imgInfo img{
+
+    .imgInfo img {
         width: 60%;
         height: 60%;
     }
 }
+
 @media (max-width: 323px) {
-    .textInfo div{
-        font-size: 18px;
+    .textInfo H1 {
+        font-size: 23px;
     }
-    .textHeader span{
+
+    .textHeader H2 {
         font-size: 30px;
     }
-    .textDesc span{
+
+    .textDesc span {
         font-size: 20px;
     }
 }
+
 @media (max-width: 262px) {
-    .textInfo div{
-        font-size: 16px;
+    .textInfo H1 {
+        font-size: 20px;
     }
 }
